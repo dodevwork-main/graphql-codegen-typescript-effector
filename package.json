@@ -1,0 +1,25 @@
+{
+  "name": "graphql-codegen-typescript-effector",
+  "version": "0.0.1",
+  "description": "",
+  "type": "commonjs",
+  "main": "dist/cjs/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "node dist/cjs/index.js"
+  },
+  "keywords": [],
+  "author": "Max Ryantsev <dodevwork@gmail.com> (https://github.com/dodevwork-main)",
+  "license": "MIT",
+  "peerDependencies": {
+    "graphql": "^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@graphql-codegen/plugin-helpers": "^5.0.1",
+    "@graphql-codegen/visitor-plugin-common": "^4.0.1",
+    "auto-bind": "~4.0.0"
+  }
+}

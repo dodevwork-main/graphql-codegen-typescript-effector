@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "target": "ES2020",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "allowJs": true,
+    "noEmit": false,
+    "declaration": true,
+    "outDir": "dist/cjs",
+    "declarationDir": "dist/types"
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": ["node_modules",]
+}
